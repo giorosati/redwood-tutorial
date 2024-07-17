@@ -17,7 +17,8 @@ yarn rw prisma migrate dev
 yarn rw prisma db seed
 yarn rw dev
 ```
-
+rw dev server:
+http://localhost:8910/
 
 GraphQL:
 http://localhost:8911/graphql

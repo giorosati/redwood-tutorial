@@ -1,5 +1,5 @@
 // Define your own mock data here:
-export const standard = () => {
+export const primary = () => {
   return {
     article: {
       id: 1,
@@ -8,4 +8,4 @@ export const standard = () => {
       createdAt: '2020-01-01T12:34:56Z',
     },
   }
-};
+}
