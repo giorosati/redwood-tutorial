@@ -17,3 +17,14 @@ yarn rw prisma migrate dev
 yarn rw prisma db seed
 yarn rw dev
 ```
+
+
+GraphQL:
+http://localhost:8911/graphql
+
+Prisma Studio:
+yarn rw prisma studio
+http://localhost:5555/
+
+Storybook:
+http://localhost:7910
