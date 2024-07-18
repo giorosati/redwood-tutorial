@@ -17,6 +17,9 @@ yarn rw prisma migrate dev
 yarn rw prisma db seed
 yarn rw dev
 ```
+
+user: giovanni.rosati@gmail.com
+psswd:
 rw dev server:
 http://localhost:8910/
 
@@ -28,4 +31,5 @@ yarn rw prisma studio
 http://localhost:5555/
 
 Storybook:
+yarn rw storybook
 http://localhost:7910

@@ -1,5 +1,5 @@
 // Define your own mock data here:
-export const primary = () => {
+export const standard = () => {
   return {
     article: {
       id: 1,

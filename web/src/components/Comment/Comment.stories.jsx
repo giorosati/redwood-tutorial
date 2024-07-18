@@ -11,7 +11,7 @@
 // See https://storybook.js.org/docs/react/writing-stories/args.
 
 import Comment from './Comment'
-export const primary = () => {
+export const standard = () => {
   return (
     <Comment
       comment={{
