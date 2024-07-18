@@ -18,18 +18,19 @@ yarn rw prisma db seed
 yarn rw dev
 ```
 
-user: giovanni.rosati@gmail.com
-psswd:
-rw dev server:
-http://localhost:8910/
 
-GraphQL:
+to start the rw dev server and GraphQL:
+yarn rw dev
+http://localhost:8910/
 http://localhost:8911/graphql
 
-Prisma Studio:
+to start Prisma Studio:
 yarn rw prisma studio
 http://localhost:5555/
 
-Storybook:
+to start Storybook:
 yarn rw storybook
 http://localhost:7910
+
+testing:
+
