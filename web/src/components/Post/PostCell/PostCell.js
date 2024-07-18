@@ -2,7 +2,7 @@ import Post from 'src/components/Post/Post'
 
 export const QUERY = gql`
   query FindPostById($id: Int!) {
-    post: post(id: $id) {
+    post: adminPost(id: $id) {
       id
       title
       body
@@ -10,6 +10,17 @@ export const QUERY = gql`
     }
   }
 `
+
+// export const QUERY = gql`
+//   query FindPostById($id: Int!) {
+//     post: post(id: $id) {
+//       id
+//       title
+//       body
+//       createdAt
+//     }
+//   }
+// `
 
 export const Loading = () => <div>Loading...</div>
 

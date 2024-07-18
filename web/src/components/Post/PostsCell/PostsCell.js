@@ -4,7 +4,7 @@ import Posts from 'src/components/Post/Posts'
 
 export const QUERY = gql`
   query POSTS {
-    posts {
+    posts: adminPosts {
       id
       title
       body
@@ -12,6 +12,17 @@ export const QUERY = gql`
     }
   }
 `
+
+// export const QUERY = gql`
+//   query POSTS {
+//     posts {
+//       id
+//       title
+//       body
+//       createdAt
+//     }
+//   }
+// `
 
 export const Loading = () => <div>Loading...</div>
 
