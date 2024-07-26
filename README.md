@@ -1,9 +1,7 @@
 # Redwood Tutorial App
 
-This repo represents the final state of the app created during the [Redwood Tutorial](https://redwoodjs.com/tutorial).
-It is meant to be a starting point for those working on the second half of the Tutorial, starting at the [Intermission](https://redwoodjs.com/docs/tutorial/intermission).
+This repo is the final version of a blog site created with RedwoodJS.
 
-This repo contains much more styling than the one we built together in the tutorial, but is functionally identical.
 
 ## Setup
 
@@ -32,5 +30,4 @@ to start Storybook:
 yarn rw storybook
 http://localhost:7910
 
-testing:
 
